@@ -1,11 +1,15 @@
 export const handler = async (event) => {
-	console.log(event);
+	const name = event.queryStringParameters && event.queryStringParameters.name;
 
-	console.log('Hello Lambda');
+	let message = 'Hello Lambda!';
+
+	if (name) {
+		message = `Hello ${name}!`;
+	}
 
 	const response = {
 		statusCode: 200,
-		body: JSON.stringify('Hello from Lambda!'),
+		body: JSON.stringify(message),
 	};
 	return response;
 };
