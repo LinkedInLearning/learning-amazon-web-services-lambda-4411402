@@ -6,11 +6,7 @@ export const handler = async (event) => {
 
 	let message = 'value 1 and value 2 are needed';
 
-	if (
-		event.queryStringParameters !== null &&
-		value1 !== null &&
-		value2 !== null
-	) {
+	if (event.queryStringParameters !== null && value1 && value2) {
 		const sum = parseInt(value1) + parseInt(value2);
 		message = `The result is ${sum}`;
 	}
