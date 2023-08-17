@@ -39,6 +39,19 @@ Resources:
             Path: /dice
             Method: get
 
+  RollADiceWithSidesFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: roll-dice-sides/
+      Handler: app.lambdaHandler
+      Runtime: nodejs18.x
+      Events:
+        RollDiceSideApi:
+          Type: Api
+          Properties:
+            Method: get
+            Path: /roll
+
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
   # Find out more about other implicit resources you can reference within SAM
