@@ -4,11 +4,8 @@ This is the repository for the LinkedIn Learning course `Serverless Computing wi
 
 ![course-name-alt-text][lil-thumbnail-url]
 
-Ready to go serverless? Learn the essentials of working with AWS Lambda, a compute service that handles administration for you, so you're only responsible for your code. In this course, Marcia Villalba helps beginners get up and running with AWS Lambda.
+Learn the essentials of working with AWS Lambda, a compute service that handles administration for you, so you're only responsible for your code. In this course, Marcia Villalba helps beginners get up and running with Lambda. To begin, she explains the basics of securing an AWS account and creating IAM users. From there, she moves on to the main concepts of the Lambda programming model and shows how to create Lambda functions and add API Gateway as a trigger. She steps through how to do everything from the AWS console to solidify your baseline knowledge before showing how to create lambda functions with the AWS Serverless Application Framework (SAM), which uses the paradigm of infrastructure as code—the recommended way to develop serverless applications.
 
-To begin, she explains the basics of securing an AWS account and creating IAM users. From there, she moves on to the main concepts of the Lambda programming model and shows how to create Lambda functions and add Amazon API Gateway as a trigger.
-
-She steps through how to do everything from the AWS console to solidify your baseline knowledge before showing how to create Lambda functions with the AWS Serverless Application Model (AWS SAM), which uses the paradigm of infrastructure as code—the recommended way to develop serverless applications.
 
 _See the readme file in the main branch for updated instructions and information._
 
@@ -34,13 +31,6 @@ To resolve this issue:
 Add changes to git using this command: git add .
 Commit changes using this command: git commit -m "some message"
 
-## Installing
-
-1. To use these exercise files, you must have the following installed:
-   - [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
-
 ## Instructor
 
 Marcia Villalba
@@ -50,5 +40,5 @@ _Principal Developer Advocate, Amazon Web Services_
 [Other courses by the instructor](https://www.linkedin.com/learning/instructors/marcia-villalba)
 
 [0]: # 'Replace these placeholder URLs with actual course URLs'
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/learning-amazon-web-services-lambda-22774748
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D4E0DAQHyJh-aVJ7oSA/learning-public-crop_675_1200/0/1698099539970?e=2147483647&v=beta&t=QhH16TaC8NFVW2rHPRNWnlddpdwvkcHaSAHfkRm94TY
